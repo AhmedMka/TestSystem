@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  deleteUser(emp: Employees): void {
+  deleteUser(emp: Employees) {
     this.employeService.deleteUser(emp.id)
       .subscribe( data => {
         this.employees = this.employees.filter(u => u !== emp);

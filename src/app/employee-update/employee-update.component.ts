@@ -11,7 +11,6 @@ export class EmployeeUpdateComponent implements OnInit {
   id: number;
   data = {};
   employees = [];
-  exist = false;
   EmployeeObject = {};
   private headers = new Headers({ 'Content-Type': 'application/json'});
   constructor(private router: Router, private route: ActivatedRoute, private http: Http) { }
@@ -42,12 +41,8 @@ export class EmployeeUpdateComponent implements OnInit {
         for (let i = 0; i < this.employees.length ; i++) {
           // tslint:disable-next-line:radix
           if (parseInt(this.employees[i].id) === this.id) {
-            this.exist = true;
             this.data = this.employees[i];
-            break;
-          } else {
-            this.exist = false;
-          }
+          } 
         }
       }
     );

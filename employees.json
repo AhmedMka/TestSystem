@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "name": "mona",
+      "address": "cairo, egypt",
+      "birth": "2016-11-29",
+      "email": "name@example.com",
+      "gender": "female",
+      "id": 7
+    },
+    {
+      "name": "ahmed",
+      "address": "cairo,egypt",
+      "birth": "2017-11-30",
+      "email": "name@example.com",
+      "gender": "male",
+      "id": 8
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

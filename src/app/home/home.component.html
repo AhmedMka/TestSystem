@@ -1,0 +1,33 @@
+
+<hr>
+<button type="button" routerLink="/employees"
+ class="btn btn-primary btn-lg btn-block container">Add New Employee</button>
+ <hr>
+ <p>
+  <input  [(ngModel)]="term"
+   type="text" class="form-control container" placeholder="Search ...">
+</p>
+<table  class="table container">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Birth</th>
+      <th>Email Address</th>
+      <th>Address</th>
+      <th>Gender</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of employees| filter :term">
+        <td>{{employee.name}}</td>
+        <td>{{employee.birth}}</td>
+        <td>{{employee.address}}</td>
+        <td>{{employee.gender}}</td>
+        <td>{{employee.email}}</td>
+        <td><a (click)="deleteUser(employee)"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+        <td><a  [routerLink]= "['/employeeupdate/', employee.id]"><i class="far fa-edit"></i></a></td>
+
+    </tr>
+  </tbody>
+</table>

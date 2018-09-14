@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "name": "ahmed",
+      "address": "cairo, egypt",
+      "birth": "2018-10-30",
+      "email": "name@example.com",
+      "gender": "male",
+      "id": 11
+    },
+    {
+      "name": "mohamed",
+      "address": "cairo, egypt",
+      "birth": "2018-12-31",
+      "email": "ahmedmodymody766@yahoo.com",
+      "gender": "male",
+      "id": 12
+    },
+    {
+      "name": "ahmed",
+      "address": "cairo,egypt",
+      "birth": "2014-11-28",
+      "email": "name@example.com",
+      "gender": "male",
+      "id": 13
+    },
+    {
+      "name": "MandoMostafa",
+      "address": "cairo,egypt",
+      "birth": "2016-11-28",
+      "email": "mandoloveking@yahoo.com",
+      "gender": "male",
+      "id": 14
+    },
+    {
+      "name": "ahmedaaa",
+      "address": "cairo,egypt",
+      "birth": "1985-10-30",
+      "email": "mandoloveking@yahoo.com",
+      "gender": "male",
+      "id": 15
+    },
+    {
+      "name": "ahmedaa",
+      "address": "cairo,egypt",
+      "birth": "2015-11-29",
+      "email": "name@example.com",
+      "gender": "male",
+      "id": 16
+    }
+  ]
+}
